@@ -25,33 +25,32 @@ author:
 autosize: true
 font-family: 'Arial'
 
-Terminology
+terminology
 ========================================================
 
 * A database (DB) is an organized collection of data
 * A database management system (DBMS) is a software that allows interacting with the database (e.g., storing, retrieving, updating data)
-* Many types/flavors of databases: document, key-value
 
 <div class="footer" style=font-size:50%;">Attribution: Introduction to Data Science: BIO 260 and CSCI E107, Harvard T.H. Chan School of Public Health</div>
 
 
-Relational database
+relational database
 ========================================================
+* Many types/flavors of databases: document, key-value
 * Relational model (RM):
   + built atop a set-theory branch called relational algebra: a combination of selections ( WHERE ... ), projections ( SELECT ... ), Cartesian products ( JOIN ... ), and more
 * RDBMS = DBMS + RM
-* SQL (Structured Query Language) is a language designed to interact with RDBMS
-* IBM in the 1970s (Edgar Codd)
+* SQL (Structured Query Language): language designed to interact with RDBMS
 
 <div class="footer" style=font-size:50%;">Attribution: Introduction to Data Science: BIO 260 and CSCI E107, Harvard T.H. Chan School of Public Health</div>
 
 
-Why use a RDBMS?
+why use a RDBMS?
 ========================================================
 
 * Data size, typically when the data fits on drive but not in memory
-* Harness the power of SQL
 * One DB vs (too) many CSV files - **complexity!**
+* Harness the power of SQL
 * Data already live in a DB
 * DB provides extra tools, for example a GIS toolbox to deal with spatial data
 
@@ -61,11 +60,11 @@ Why use a RDBMS?
 RDBMS software solutions
 ========================================================
 
-* Commercial
+* commercial
   + Oracle
   + Microsoft SQL Server
   + ...
-* Open-source
+* open-source
   + MySQL
   + PostgreSQL
   + SQLite
