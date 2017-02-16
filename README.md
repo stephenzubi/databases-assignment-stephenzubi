@@ -134,7 +134,7 @@ analyses.
 
 Your submission should include the following components:
 
-1.  in a single text file (not Word a doc!):
+1.  in a single text file (not a Word doc, please):
     -   create table statement generating a table to house the
         barometric pressure data
     -   select statement that yields the sampling site and *average*
