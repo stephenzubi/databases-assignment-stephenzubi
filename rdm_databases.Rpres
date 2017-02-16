@@ -17,6 +17,7 @@
 }
 .small-code pre code {
   font-size: 0.9em;
+}
 </style>
 
 databases
@@ -86,7 +87,7 @@ Structure
 title: false
 
 table structure
-![table_structure](./images/tableStructure.png)
+<p style="font-size:0.5em; color:grey;"><img src="./images/tableStructure.png" style="margin-bottom=10px"><br>attribution: introduction to data science: BIO 260 and CSCI E107 Harvard T.H. Chan School of Public Health</p>
 ***
 database structure (schema)
-![db_schema](./images/entity-relationship-diagram.png)
+<p style="font-size:0.5em; color:grey;"><img src="./images/entity-relationship-diagram.png" style="margin-bottom=10px"><br>attribution: Hand-crafted relational databases for fun and science, Naupaka Zimmerman, Data Carpentry, 2016-12-05</p>
