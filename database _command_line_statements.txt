@@ -1,0 +1,17 @@
+Databases assignment
+Stephen Iwuozo
+CREATE TABLE "barometric_pressure" (
+  "id" INTEGER PRIMARY KEY  AUTOINCREMENT NOT NULL ,
+  "sonde_event_id" INTEGER NOT NULL ,
+  "DateTime" DATETIME,
+  "BP" DOUBLE,
+  FOREIGN KEY ("sonde_event_id") REFERENCES sonde_events("id")
+)
+
+SELECT
+  barometric_pressure.sonde_event_id,
+  sonde_events.site_id,
+  avg(barometric_pressure.BP) AS avg_pressure
+FROM barometric_pressure
+JOIN sonde_events ON (sonde_events.id = barometric_pressure.sonde_event_id)
+GROUP BY sonde_events.id;
